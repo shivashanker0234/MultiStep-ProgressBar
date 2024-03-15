@@ -1,0 +1,43 @@
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step-container {
+    flex: 1;
+    position: relative;
+    text-align: center;
+  }
+  
+  .step {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .step.active {
+    background-color: #007bff;
+  }
+  
+  .circle.active {
+    background-color: #007bff;
+  }
+  

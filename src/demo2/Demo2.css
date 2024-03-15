@@ -1,0 +1,42 @@
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  .step {
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .step.step1 {
+    width: 25%;
+    background-color: #007bff; /* Color for step 1 */
+  }
+  
+  .step.step2 {
+    width: 25%;
+    background-color: #28a745; /* Color for step 2 */
+  }
+  
+  .step.step3 {
+    width: 25%;
+    background-color: #ffc107; /* Color for step 3 */
+  }
+  
+  .step.step4 {
+    width: 25%;
+    background-color: #dc3545; /* Color for step 4 */
+  }
+  
+  .step.active {
+    background-color: #5bc0de; /* Color for active step */
+  }
+  
